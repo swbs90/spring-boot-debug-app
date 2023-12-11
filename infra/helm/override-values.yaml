@@ -20,8 +20,8 @@ probes:
     path: /actuator/health/liveness
     failureThreshold: 3
     successThreshold: 1
-    timeoutSeconds: 3
-    periodSeconds: 5
+    timeoutSeconds: 5
+    periodSeconds: 10
   readiness:
     initialDelaySeconds: 15
     path: /actuator/health/readiness
