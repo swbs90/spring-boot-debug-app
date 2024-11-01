@@ -39,6 +39,8 @@ ports:
     value: 8081
 
 envs:
+  - name: VAULT_NAMESPACE
+    value: admin
   - name: VAULT_SECRET_USER
     value: <path:kv-v2/data/demo#user>
   - name: VAULT_SECRET_PASSWORD
