@@ -39,8 +39,10 @@ ports:
     value: 8081
 
 envs:
-  - name: EXTRA_HELM_ENV
-    value: EXTRA_HELM_VALUE
+  - name: VAULT_SECRET_USER
+    value: <path:mzc-spring/data/java_and_vault/dev#spring.datasource.username>
+  - name: VAULT_SECRET_PASSWORD
+    value: <path:mzc-spring/data/java_and_vault/dev#spring.datasource.password>
 
 logging:
   level:
