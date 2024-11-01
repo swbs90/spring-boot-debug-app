@@ -42,9 +42,9 @@ envs:
   - name: VAULT_NAMESPACE
     value: admin
   - name: VAULT_SECRET_USER
-    value: <path:kv-v2/data/demo#user>
+    value: <path:mzc-spring/data/java_and_vault/dev#spring.datasource.username>
   - name: VAULT_SECRET_PASSWORD
-    value: <path:kv-v2/data/demo#password>
+    value: <path:mzc-spring/data/java_and_vault/dev#spring.datasource.password>
 
 log:
   level:
